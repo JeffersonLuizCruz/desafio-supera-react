@@ -1,0 +1,82 @@
+.App {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-container {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .search-label {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  
+    gap: 10px;
+  }
+  
+  .search-input {
+    width: 90%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container-balance {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+  }
+  
+  .transaction-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .no-transactions {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .table-data {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
